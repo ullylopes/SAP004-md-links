@@ -5,4 +5,3 @@ describe(mdLinks, () => {
     expect(typeof mdLinks).toBe('function');
   });
   it('returns array', (done) => {
-    mdLinks
