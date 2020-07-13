@@ -1,4 +1,36 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "Biblioteca que extrai links de arquivos markdown executável pela linha de comando.",
+  "main": "lib",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laboratoria/SAP004-md-links.git"
+  },
+  "keywords": [
+    "md-links",
+    "markdown",
+    "library"
+  ],
+  "author": "Ully Lopes <ullydasilvalopes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/SAP004-md-links/issues"
+  },
+  "homepage": "https://github.com/Laboratoria/SAP004-md-links#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0"
+  },
+  "bin": {
+    "md-links": "./lib/cli.js"
+  }
 }
